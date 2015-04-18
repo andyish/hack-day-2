@@ -6,7 +6,6 @@ import com.badlogic.gdx.math.Vector3;
 
 public class OrthoCamController extends InputAdapter {
     final OrthographicCamera camera;
-    private MyGdxGame.PlayEventListener playerEventListener;
 
     public OrthoCamController (OrthographicCamera camera) {
         this.camera = camera;
@@ -36,16 +35,11 @@ public class OrthoCamController extends InputAdapter {
     }
 
     public boolean touchDown (int screenX, int screenY, int pointer, int button) {
-        playerEventListener.click(screenX, screenY);
         return false;
     }
 
     public boolean keyDown (int keycode) {
-        playerEventListener.move(keycode);
         return false;
     }
 
-    public void setPlayerEventListener(MyGdxGame.PlayEventListener playerEventListener) {
-        this.playerEventListener = playerEventListener;
-    }
 }

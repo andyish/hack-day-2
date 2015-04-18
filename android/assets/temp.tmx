@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="80" height="80" tilewidth="16" tileheight="16" nextobjectid="1">
+ <tileset firstgid="1" name="stone_bricks" tilewidth="16" tileheight="16">
+  <image source="stone_bricks.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="65" name="stone_walls" tilewidth="16" tileheight="16">
+  <image source="stone_walls.png" width="128" height="128"/>
+  <tile id="1">
+   <objectgroup draworder="index">
+    <object id="0" x="-0.181818" y="-0.181818" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="18">
+   <objectgroup draworder="index">
+    <object id="0" x="-0.181818" y="0" width="16.1818" height="16"/>
+   </objectgroup>
+  </tile>
+ </tileset>
+ <layer name="Tile Layer 1" width="80" height="80">
+  <data encoding="base64" compression="zlib">
+   eJzt20kSgzAMBVHuyP3vkkVWgAdJ34Cw+1VlGQp3GGPYtnfsk3zebPJ1kTHM3sTDM94V+/RYe9DuytqEdmW00/S60K6t1YZ2fbU+tLMpNaKdXa0fbOinoZ/m3Ipjn0+pH+zop6Gfhn4a+sWdz7Wce33Y9jT009AvrnSso58d970a+sXVrlPoZ9P6zx59zHnE9RrRr80y34syy/5Jvzrrsxooo1+Z5/mzUctaEf009NPQT0M/Df009NPQT0O/OM97CrgaeY+yIvpp6Kehn4Z+cZ55Ifpded/vxRH94rxzuvQ78vZgDv0o0oJ+f9EO9NP2w9X7qccw+r37/S8bcf5c9Rw8ctyr9su4rOzu2N9W2YfvHOfsDZ8Y34wN9+3Zcc3U8K2x7Nvzv9toWdb93DLDOvVkXs/MPTOuU0+Wnl/rVlPq+cR11wztWlpdPQ2ybO8ZjWoMAADm8wPxo2FF
+  </data>
+ </layer>
+</map>

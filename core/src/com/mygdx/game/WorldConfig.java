@@ -13,8 +13,8 @@ public class WorldConfig {
     public static int maxMiners = 500;
 
     public static float gravity = -10f;
-    public static float jumpVel = 2.5f;
-    public static float runVel = 2f;
+    public static float jumpVel = 10f;
+    public static float runVel = 8f;
 
     public static boolean isTouchDevice = false;
 
